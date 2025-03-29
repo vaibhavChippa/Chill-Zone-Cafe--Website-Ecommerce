@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Bliss - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Café Bliss</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="cart-btn">Cart <span id="cart-count">0</span></button>
+    </nav>
+
+    <!-- Menu Section -->
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="Espresso.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>A rich, bold coffee shot.</p>
+                <p>$3.50</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="Latte.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth coffee with steamed milk.</p>
+                <p>$4.50</p>
+                <button class="add-to-cart" data-id="4">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="Chocolate Croissant.jpg" alt="Chocolate Croissant">
+                <h3>Chocolate Croissant</h3>
+                <p>Flaky pastry with rich chocolate.</p>
+                <p>$4.00</p>
+                <button class="add-to-cart" data-id="2">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="Turkey Sandwich.jpg" alt="Turkey Sandwich">
+                <h3>Turkey Sandwich</h3>
+                <p>Fresh turkey, lettuce, and mayo on artisan bread.</p>
+                <p>$6.50</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

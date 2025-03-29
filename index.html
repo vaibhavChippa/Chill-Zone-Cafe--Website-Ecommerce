@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Bliss - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Café Bliss</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="cart-btn">Cart <span id="cart-count">0</span></button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Café Bliss</h1>
+            <p>Enjoy the finest coffee, pastries, and sandwiches in town.</p>
+            <button class="cta-btn"><a href="menu.html">Order Now</a></button>
+        </div>
+        <div class="hero-image">
+        </div>
+    </section>
+
+    <!-- Featured Items -->
+    <section class="featured">
+        <h2>Featured Items</h2>
+        <div class="featured-grid">
+            <div class="featured-card">
+                <img src="coffe.jpg" alt="Coffee">
+                <h3>Espresso</h3>
+                <p>$3.50</p>
+                <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+            <div class="featured-card">
+                <img src="pastrey.jpg" alt="Pastry">
+                <h3>Chocolate Croissant</h3>
+                <p>$4.00</p>
+                <button class="add-to-cart" data-id="2">Add to Cart</button>
+            </div>
+            <div class="featured-card">
+                <img src="sandwitch.jpg" alt="Sandwich">
+                <h3>Turkey Sandwich</h3>
+                <p>$6.50</p>
+                <button class="add-to-cart" data-id="3">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
